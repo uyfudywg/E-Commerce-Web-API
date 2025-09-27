@@ -39,3 +39,38 @@ It follows the **Repository Pattern** and supports **Generic Repository** for ha
 
 ## 📂 Project Structure
 
+E-commerce/
+│── E-commerce.sln                → Solution File
+│
+│── E-commerce.Api/               → API Layer (Controllers & Startup)
+│   │── Controllers/              → API Controllers
+│   │   │── ProductController.cs
+│   │   │── BrandController.cs
+│   │   │── TypeController.cs
+│   │
+│   │── Program.cs                → Entry Point
+│   │── appsettings.json          → Configuration File
+│
+│── E-commerce.Domain/            → Domain Layer (Entities & Contracts)
+│   │── Entities/                 → Database Entities
+│   │   │── BaseEntity.cs
+│   │   │── Product.cs
+│   │   │── Brand.cs
+│   │   │── ProductType.cs
+│   │
+│   │── Contracts/                → Repository Interfaces
+│       │── IGenericRepository.cs
+│
+│── E-commerce.Infrastructure/    → Infrastructure Layer (EF Core, Repository, Migrations)
+│   │── dbContext/                → EF Core DbContext
+│   │   │── E_commerceContext.cs
+│   │
+│   │── Repository/               → Generic Repository Implementation
+│   │   │── GenericRepository.cs
+│   │
+│   │── Migrations/               → EF Core Migrations
+│   │── DataSeed/                 → Seed Data JSON Files
+│   │   │── brands.json
+│   │   │── types.json
+│   │   │── products.json
+
