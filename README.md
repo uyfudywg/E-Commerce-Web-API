@@ -36,9 +36,9 @@ It follows the **Repository Pattern** and supports **Generic Repository** for ha
 - **Repository Pattern**
 
 ---
-
 ## 📂 Project Structure
 
+```text
 E-commerce/
 │── E-commerce.sln                → Solution File
 │
@@ -73,4 +73,3 @@ E-commerce/
 │   │   │── brands.json
 │   │   │── types.json
 │   │   │── products.json
-
