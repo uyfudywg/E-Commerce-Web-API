@@ -30,7 +30,7 @@ It follows the **Repository Pattern** and supports **Generic Repository** for ha
 ---
 
 ## 🛠️ Tech Stack
-- **ASP.NET Core 7 / 8**
+- **ASP.NET Core 8**
 - **Entity Framework Core**
 - **SQL Server**
 - **Repository Pattern**
@@ -73,3 +73,4 @@ E-commerce/
 │   │   │── brands.json
 │   │   │── types.json
 │   │   │── products.json
+
